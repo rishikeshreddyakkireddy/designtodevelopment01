@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    color: black;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 0;
+}
+
+.container div{
+    padding: 15px;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+
+
+
+.cellOne{
+    background-color: #fdfaf6;
+}
+
+.cellTwo{
+    background-color: #ffed99;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container .cellOne .nav a{
+    font-size: 20px;
+    margin-right: 8%;
+}
+
+
+i{
+    color: indianred;
+}
+
+.container .cellOne .title a , .container .cellTwo a,.footer .cellTwoFooter a{
+    font-size: 25px;
+    margin-right: 7%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4%;
+}
+
+.container .cellOne .title .learnMorea{
+    border: none;
+}
+
+.title{
+    margin: 8% 3%;
+    width: 58%;
+}
+
+.heading {
+    font-size: 60px;
+    margin: 0;
+}
+
+.description {
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.tryDemo {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.tryDemoCellTwo{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+
+.container .cellTwo .tryDemo{
+    border: none;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #0a1931;
+    color: antiquewhite;
+    padding: 10px;
+    height: 87.5px;
+}
+
+.tryDemoFooter{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.cellOneFooter{
+    margin-block: auto;
+    margin-left: 14%;
+}
+
+
+
+.demo{
+    margin: 0 ;
+}
+
+img{
+    position: absolute;
+    top:  17%;
+    left: 45%;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    filter: drop-shadow(2px 0px 5px rgb(0, 0, 0));
+}
+
+.descriptionF{
+    font-size: 20px;
+    margin: 0;
+}
+
+.tryDemoFooter {
+    margin-left: 30%;
+}
+
+.learnMore{
+    color: rgb(243, 22, 52);
+    background-color: #f9dfdc;
+}
+
